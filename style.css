@@ -1,0 +1,21 @@
+/* I have found the answer for the responsive images:
+https://stackoverflow.com/questions/12609110/responsive-css-background-images
+*/
+
+body {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.responsive {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
